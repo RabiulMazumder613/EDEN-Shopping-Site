@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDEN | Store</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css">
+    <script src="store.js"></script>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="homePage.html">HOME</a></li>
+                <li><a href="storePage.html">STORE</a></li>
+                <li><a href="aboutPage.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">EDEN</h1>
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header">MUSIC</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Album 1</span>
+                <img class="shop-item-image" src="bandImages/Vertigo.jpg"> 
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$16.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 2</span>
+                <img class="shop-item-image" src="bandImages/Too Much.jpg"> 
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 3</span>
+                <img class="shop-item-image" src="bandImages/No Future.jpeg"> 
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 4</span>
+                <img class="shop-item-image" src="bandImages/End Credits.png"> 
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">MERCH</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Tote Page</span>
+                <img class="shop-item-image" src="bandImages/tote.jpg" width="200"> 
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$25.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Hoodie</span>
+                <img class="shop-item-image" src="bandImages/eden merch.jpeg" width="200"> 
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$59.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="bandImages/eden merch.jpeg" width="100" height="100">
+                    <span class="cart-item-title">Hoodie</span>
+                </div>
+                <span class="cart-price cart-column">$59.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type= "number" value="1">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="bandImages/End Credits.png" width="100" height="100">
+                    <span class="cart-item-title">Album 4</span>
+                </div>
+                <span class="cart-price cart-column">$12.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="2">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <span class="cart-total-title">Total</span>
+            <span class="cart-total-price">$85.97</span>
+        </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">EDEN</h3>
+            <ul class="nav footer-nav">
+                <li> 
+                    <a href="https://www.youtube.com/user/EdenProjectOfficial" target="_blank">
+                        <img src="bandImages/YouTube Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/1t20wYnTiAT0Bs7H1hv9Wt" target="_blank">
+                        <img src="bandImages/Spotify Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/iameden" target="_blank">
+                        <img src="bandImages/Facebook Logo.png"> 
+                    </a> 
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
