@@ -1,6 +1,6 @@
 # EDEN-Shopping-Site
 
-**EDEN-Shopping-Site** is a website for the artist EDEN that has an Home, Store, and About pages. 
+**EDEN-Shopping-Site** is a website for the artist EDEN that has a Home, Store, and About page. 
 
 The Home page disaplys the artist's Summer Tours
 The Store page is where the customer can buy EDEN's music albums and merchendise. The About page provides a description of EDEN and a Biography showing the journey of his music
